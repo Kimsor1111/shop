@@ -33,7 +33,7 @@
         transform: translateY(-180px) translateX(30px);
     }
     .Btn {
-        transform: translateX(-280px) translateY(300px);
+        transform: translateX(-330px) translateY(300px);
     }
     .box1 h1{
         font-size: 45px;
@@ -54,7 +54,7 @@
     }
     .box-prd{
         margin-bottom: 20px;
-        height: 800px;
+        height: 600px;
     }
     .box-prd .img img{
         object-fit: contain;
@@ -68,5 +68,49 @@
     .box-prd .img .icon-hover{
         width: 9%;
         height: 150px;
+    }
+    .banner-container{
+        width: 96%;
+        height: 800px;
+    }
+    .banner-container .inside-box{
+        margin-left: 20px;
+        transform: translateY(100px);
+    }
+    .banner-container .inside-box .des h1{
+        font-size: 50px;
+    }
+    .banner-container .inside-box .button{
+        width: 30%;
+    }
+    .banner-container .img{
+        width: 100%;
+        height: 100%;
+    }
+    .banner-container .img img{
+        width: 100%;
+        height: 100%;
+        transform: translateX(0) translateY(200px);
+    }
+    .aboutus{
+        width: 95%;
+    }
+    .contact{
+        width: 95%;
+    }
+    .contact .icon-container{
+        padding: 5px;
+    }
+    .contact .icon-container .box-icon{
+        width: 100%;
+    }
+    form{
+        width: 95%;
+    }
+    form input{
+        width: 100%;
+    }
+    form input[type="submit"]{
+        width: 30%;
     }
 }
