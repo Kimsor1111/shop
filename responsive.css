@@ -113,4 +113,29 @@
     form input[type="submit"]{
         width: 30%;
     }
+    footer .footer-container{
+        width: 90%;
+    }
+    footer{
+        height: 640px;
+        margin-top: 10px;
+    }
+    footer .footer-container .box-footer .top{
+        transform: translateY(-30px);
+    }
+    footer .footer-container .box-footer .body{
+        transform: translateY(-20px);
+    }
+    footer .footer-container .box-footer h5{
+        transform: translateY(-40px);
+    }
+    footer .footer-container .box-footer ul{
+        transform: translateY(-40px);
+    }
+    footer .footer-container .box-footer .icon-container .icon{
+        transform: translateY(-50px);
+    }
+    footer .footer-container .box-footer .icon-container{
+        width: 40%;
+    }
 }

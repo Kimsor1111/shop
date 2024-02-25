@@ -418,18 +418,108 @@ footer{
     width: 100%;
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0.863);
-    padding-block: 20px;
+    padding-block: 50px;
     box-sizing: border-box;
     margin-top: 50px;
 }
 footer .footer-container{
     width: 60%;
-    height: 400px;
-    background-color: red;
+    height: 300px;
     margin: auto;
 }
 footer .footer-container .box-footer{
     width: 100%;
-    height: 400px;
-    background-color: tan;
+    height: 180px;
+}
+footer .footer-container .box-footer .top{
+    width: 100%;
+    height: 15%;
+}
+footer .footer-container .box-footer .top a img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+footer .footer-container .box-footer .top a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: rgb(255, 255, 66);
+    text-decoration: none;
+}
+footer .footer-container .box-footer .top a p{
+    transform: translateY(10px);
+    margin-left: 15px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+footer .footer-container .box-footer .top a:hover p{
+    text-decoration: underline;
+}
+footer .footer-container .box-footer .body{
+    width: 100%;
+    height: 80%;
+    margin-block-start: 6%;
+    display: flex;
+    flex-direction: column;
+    line-height: 4px;
+}
+footer .footer-container .box-footer .body p{
+    color: rgb(207, 207, 207);
+    font-size: 15px;
+    font-weight: bold;
+}
+footer .footer-container .box-footer h5{
+    color: white;
+    transform: translateY(15px);
+    font-size: 16px;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+footer .footer-container .box-footer ul{
+    transform: translateY(30px);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+}
+footer .footer-container .box-footer ul li a{
+    color: yellow;
+    font-size: 20px;
+    text-decoration: none;
+}
+footer .footer-container .box-footer ul li a span{
+    color: rgba(190, 190, 190, 0.664);
+    margin-left: 10px;
+}
+footer .footer-container .box-footer ul li a span:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+footer .footer-container .box-footer .icon-container{
+    width: 100%;
+    height: 50px;
+    transform: translateY(20px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .footer-container .box-footer .icon-container .icon{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(37, 37, 37, 0.788);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+footer .footer-container .box-footer .icon-container .icon i{
+    color: rgb(0, 214, 214);
+    font-size: 18px;
+}
+footer .footer-container .box-footer .icon-container .icon:hover i{
+    color: yellow;
 }
